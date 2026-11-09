@@ -52,14 +52,13 @@ Leaf nodes (bottom) contain actual keys or data pointers.
 ### 🗂 Directory Structure
 
 ```
-├── src
-│   └── BPlusTree.cpp     # Implementation and CLI
+├── B_Plus_Trees.cpp      # Implementation and CLI
 ```
 
 ### ⚙️ Compilation
 
 ```bash
-g++ -std=c++11 -O2 -o bptree BPlusTree.cpp
+g++ -std=c++11 -O2 -o bptree B_Plus_Trees.cpp
 ```
 
 ### ▶️ Usage
@@ -150,14 +149,13 @@ Directory:
 ### 🗂 Directory Structure
 
 ```
-├── src
-│   └── ExtendibleHashing.cpp     # Implementation and CLI
+├── extendible_hashing.cpp        # Implementation and CLI
 ```
 
 ### ⚙️ Compilation
 
 ```bash
-g++ -std=c++11 -O2 -o extendible ExtendibleHashing.cpp
+g++ -std=c++11 -O2 -o extendible extendible_hashing.cpp
 ```
 
 ### ▶️ Usage
@@ -218,9 +216,9 @@ Each directory entry shows:
 ## 🧱 Project Layout
 
 ```
-├── src
-│   ├── BPlusTree.cpp
-│   └── ExtendibleHashing.cpp
+├── B_Plus_Trees.cpp
+├── extendible_hashing.cpp
+├── B_Plus_Trees.exe
 └── README.md
 ```
 
